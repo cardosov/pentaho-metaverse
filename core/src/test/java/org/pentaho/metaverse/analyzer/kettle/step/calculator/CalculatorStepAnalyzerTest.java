@@ -106,7 +106,7 @@ public class CalculatorStepAnalyzerTest extends ClonableStepAnalyzerTest {
 
     Set<StepField> usedFields = analyzer.getUsedFields( calculatorMeta );
 
-    assertEquals( 5, usedFields.size() );
+    assertEquals( 2, usedFields.size() );
 
   }
 
